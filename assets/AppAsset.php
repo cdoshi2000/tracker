@@ -21,8 +21,13 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
+        'node_modules/@fortawesome/fontawesome-free/css/all.min.css',
+        'node_modules/leaflet/dist/leaflet.css'
     ];
     public $js = [
+        'node_modules/@fortawesome/fontawesome-free/js/all.min.js',
+        'node_modules/bootstrap-datepicker/js/bootstrap-datepicker.js',
+        'node_modules/leaflet/dist/leaflet.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',
